@@ -1,4 +1,4 @@
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation';
 import A1 from './A1';
 import A2 from './A2';
 import A3 from './A3';

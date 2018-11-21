@@ -13,7 +13,7 @@ class Home extends PureComponent {
   render() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: "center" }}>
-        <Text>Home</Text>
+        <Text style={{ fontSize: 60 }}>Home</Text>
         <Button title="A" onPress={this.handleAPress} />
         <Button title="B" onPress={this.handleBPress} />
         <Button title="C" onPress={this.handleCPress} />
